@@ -2,8 +2,8 @@ li:first-child {
     font-weight: bold;
 }
 
-[target]::after {
-    content: " (to be open in new tab)";
+[target=_blank]::after {
+    content: " ↪";
 }
 
 li:nth-child(even) {
